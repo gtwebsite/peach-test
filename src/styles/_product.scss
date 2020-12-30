@@ -11,3 +11,34 @@
     position: absolute;
   }
 }
+
+.product-card {
+  background-color: theme-color('light');
+
+  &:hover,
+  &.active {
+    box-shadow: 0 0 0 2px theme-color('primary');
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  dl {
+    margin-bottom: 0;
+
+    dt {
+      font-weight: 400;
+    }
+
+    dd {
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
+  }
+}

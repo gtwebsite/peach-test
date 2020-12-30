@@ -1,4 +1,4 @@
-const Items = [
+const data = [
   {
     name: 'Widget 1',
     price: 100,
@@ -53,4 +53,4 @@ const Items = [
   },
 ];
 
-export default Items;
+export default data;
