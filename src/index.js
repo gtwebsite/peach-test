@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
+import { Provider } from "./store";
 import GlobalStyle from './components/styled';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,7 +11,9 @@ import './styles/main.scss';
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <App />
+    <Provider>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

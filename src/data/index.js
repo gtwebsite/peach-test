@@ -1,5 +1,6 @@
 const data = [
   {
+    id: 1,
     name: 'Widget 1',
     price: 100,
     dimension: {
@@ -13,6 +14,7 @@ const data = [
     description: '<h3>Subtitle goes here</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
   },
   {
+    id: 2,
     name: 'Widget 2',
     price: 200,
     dimension: {
@@ -26,6 +28,7 @@ const data = [
     description: '<h3>Subtitle goes here</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
   },
   {
+    id: 3,
     name: 'Widget 3',
     price: 300,
     dimension: {
@@ -39,6 +42,7 @@ const data = [
     description: '<h3>Subtitle goes here</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
   },
   {
+    id: 4,
     name: 'Widget 4',
     price: 400,
     dimension: {
