@@ -10,7 +10,7 @@ const data = [
     },
     weight: 14,
     capacitor: '10L',
-    image: 'https://via.placeholder.com/800x600',
+    image: 'https://via.placeholder.com/800x450',
     description: '<h3>Subtitle goes here</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
   },
   {
@@ -24,7 +24,7 @@ const data = [
     },
     weight: 24,
     capacitor: '10L',
-    image: 'https://via.placeholder.com/800x600',
+    image: 'https://via.placeholder.com/800x450',
     description: '<h3>Subtitle goes here</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
   },
   {
@@ -38,7 +38,7 @@ const data = [
     },
     weight: 34,
     capacitor: '10L',
-    image: 'https://via.placeholder.com/800x600',
+    image: 'https://via.placeholder.com/800x450',
     description: '<h3>Subtitle goes here</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
   },
   {
@@ -52,7 +52,7 @@ const data = [
     },
     weight: 44,
     capacitor: '10L',
-    image: 'https://via.placeholder.com/800x600',
+    image: 'https://via.placeholder.com/800x450',
     description: '<h3>Subtitle goes here</h3>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'
   },
 ];
