@@ -28,15 +28,12 @@
 }
 
 .product-card {
+  margin-bottom: 1rem;
   background-color: theme-color('light');
 
   &:hover,
   &.active {
     box-shadow: 0 0 0 2px theme-color('primary');
-  }
-
-  &:not(:last-child) {
-    margin-bottom: 1rem;
   }
 
   h4 {

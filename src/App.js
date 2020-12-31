@@ -30,7 +30,7 @@ const App = () => {
         <Container>
           <Search className="mb-3" />
           <Row>
-            <Col md={4}>
+            <Col md={4} className="sidebar">
               {data?.map((d,i)=><ProductCard 
                   data={d} 
                   key={`card${i}`} 
@@ -41,7 +41,7 @@ const App = () => {
                 />
               )}
             </Col>
-            <Col md={8}>
+            <Col md={8} className="mt-3 mt-md-0">
               <ProductDetail className={`product-detail`} data={state.products?.activeProduct} />
             </Col>
           </Row>
