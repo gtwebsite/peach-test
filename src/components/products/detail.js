@@ -9,6 +9,7 @@ import {
   FaCartPlus
 } from 'react-icons/fa';
 import ReactHtmlParser from 'react-html-parser'
+import update from 'immutability-helper';
 
 import { Context } from "../../store";
 
@@ -20,15 +21,26 @@ const ProductDetail = ({data, ...props}) => {
   }
 
   const addToCart = () => {
-    const cartItem = {
-      id: data.id,
-      name: data.name,
-      price: data.price,
+    let cartItem = {};
+    let cart = state.products.cart;
+    let newCart = [];
+    let getIndex = cart.findIndex(x => x.id === data.id);
+
+    if( getIndex > -1 ) {
+      newCart = update(cart, {[getIndex]: { unit: { $apply: function(x) {return x + 1;} } }});
+    }else{
+      cartItem = {
+        id: data.id,
+        name: data.name,
+        price: data.price,
+        unit: 1,
+      }
+      newCart = [...state.products.cart, cartItem];
     }
 
     setProducts({...state.products, 
-      cart: [...state.products.cart, cartItem]
-    });
+      cart: newCart
+    }); 
   }
 
   return (
