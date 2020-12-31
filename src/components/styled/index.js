@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+const primary_color = '#5990dc';
+
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
   
@@ -9,7 +11,24 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .main-header {
-    background-color: #5990dc;
+    background-color: ${primary_color};
+  }
+
+  .product-card {
+    &:hover,
+    &.active {
+      box-shadow: 0 0 0 2px ${primary_color};
+    }
+  }
+
+  .product-detail {
+    header {
+      button {
+        &:hover {
+          color: ${primary_color};
+        }
+      }
+    }
   }
 `;
 
