@@ -19,5 +19,6 @@ export const productReducer = (state, action) => {
 
 export const productInitialState = {
   cart: [],
-  activeProduct: {}
+  activeProduct: {},
+  searchProduct: ""
 };
