@@ -23,10 +23,22 @@ const GlobalStyle = createGlobalStyle`
 
   .product-detail {
     header {
-      button {
-        &:hover {
+      button:not(:disabled):not(.disabled) {
+        &:hover,
+        &:focus,
+        &:active {
           color: ${primary_color};
         }
+      }
+    }
+  }
+
+  .product-search {
+    button:not(:disabled):not(.disabled) {
+      &:hover,
+      &:focus,
+      &:active {
+        color: ${primary_color};
       }
     }
   }
